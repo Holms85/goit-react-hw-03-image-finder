@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import css from 'components/Modal/Modal.module.css';
 
-export default class Modal extends Component {
+class Modal extends Component {
   static propTypes = {
     src: PropTypes.string,
     alt: PropTypes.string,
@@ -36,3 +36,5 @@ export default class Modal extends Component {
     );
   }
 }
+
+export default Modal;

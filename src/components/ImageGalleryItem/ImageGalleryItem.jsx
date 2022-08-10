@@ -23,7 +23,6 @@ class ImageGalleryItem extends Component {
         <img
           src={webformatURL}
           alt={tags}
-          // data-url={largeImageURL}
                 className={css.ImageGalleryItemImage}
           onClick={this.handleImageClick}
         />
